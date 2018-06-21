@@ -12,4 +12,4 @@ done
 
 cat /app/cert-defaults.txt
 
-openssl req -x509 -days 730 -nodes -out /out/cert.pem -keyout /out/cert.key -config /app/cert-defaults.txt
+openssl req -x509 -days 730 -nodes -out /out/cert.pem -keyout /out/key.pem -config /app/cert-defaults.txt
